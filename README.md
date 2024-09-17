@@ -1,0 +1,3 @@
+Seja bem-vindo ao Expressados Café, o lugar perfeito para quem busca uma experiência única em cada xícara. Aqui, o aroma do café fresco envolve o ambiente, criando um espaço acolhedor para momentos especiais. Nossa paixão é proporcionar a você o melhor do mundo do café,
+com uma seleção de grãos cuidadosamente escolhidos e preparações que vão do clássico ao mais sofisticado. Sinta-se em casa para desfrutar de um espresso encorpado, um cappuccino cremoso ou aquele doce irresistível que acompanha perfeitamente o seu momento. No Expressados 
+Café, cada visita é um convite para saborear a vida com mais sabor e alegria. Bem-vindo!
