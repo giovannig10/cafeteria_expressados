@@ -3,5 +3,13 @@
 }
 
 .site-header{
-    background-color: rgb(51, 44, 23);
+    background-color: rgb(77, 43, 21);
+}
+
+.nav-link{
+    color: rgb(211, 199, 186);
+    text-decoration: none;
+    border: none;
+    font-size: 50px;
+    margin-bottom: 25px;
 }
