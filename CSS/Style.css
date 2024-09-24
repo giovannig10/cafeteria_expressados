@@ -22,3 +22,33 @@
     background-color: rgb(77, 43, 21);
     margin: 40px;
 }
+
+.prato{
+    background-color: rgb(77, 43, 21);
+    border-radius: 40px;
+    display: flex;
+    margin: 50px;
+    width: 800px;
+    height: 300px;
+    margin-left: 30%;
+    border: #1a1414 solid 5px;
+    color: #DDDDDD;
+}
+.foto-prato{
+    width: 200px;
+    margin: 40px;
+    border-radius: 30px;
+    border: rgb(0, 0, 0) solid 6px; 
+}
+.nome-prato, .preco-prato, .descricao-prato{
+    background-color: rgb(77, 43, 21);
+}
+.nome-prato{
+    font-size: 50px;
+}
+.preco-prato{
+    font-size: 30px;
+}
+.descricao-prato{
+    font-size: 20px;
+}
