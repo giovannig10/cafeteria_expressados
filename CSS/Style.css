@@ -1,15 +1,24 @@
 *{
-    background-color: #DDDDDD
+    background-color: #DDDDDD;
+    
 }
-
 .site-header{
+    display: flex;
     background-color: rgb(77, 43, 21);
+    align-items: center;
+    height: 180px;
 }
-
+.loguinhotop{
+    margin-right: 0px;
+    margin-left: 900px;
+    border-radius: 180px;
+    width: 100px;
+    border: #DDDDDD solid 5px;
+}
 .nav-link{
     color: rgb(211, 199, 186);
     text-decoration: none;
-    border: none;
     font-size: 50px;
-    margin-bottom: 25px;
+    background-color: rgb(77, 43, 21);
+    margin: 40px;
 }
