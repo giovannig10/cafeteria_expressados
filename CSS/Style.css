@@ -1,24 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
     background-color: #DDDDDD;
 }
-
-p {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-
 .site-header {
     display: flex;
     background-color: rgb(77, 43, 21);
     align-items: center;
     height: 180px;
+    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21),  rgb(77, 43, 21), rgb(34, 25, 16));
 }
 
 .loguinhotop {
@@ -33,7 +27,6 @@ p {
     color: rgb(211, 199, 186);
     text-decoration: none;
     font-size: 50px;
-    background-color: rgb(77, 43, 21);
     margin: 40px;
 }
 
@@ -98,9 +91,10 @@ p {
     padding: 50px;
 }
 
-.dishes-class {
-    text-align: center;
-    font-size: 40px;
+.dishes-class{
+
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .rodape {
@@ -108,6 +102,7 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: rgb(77, 43, 21);
+    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21),  rgb(77, 43, 21), rgb(34, 25, 16));
     color: antiquewhite;
     margin-left: 5%;
     width: 90%;
@@ -118,9 +113,8 @@ p {
 
 .rodape p {
     font-size: 20px;
-
     margin-bottom: 0;
-
+    margin-top: 20px;
 }
 
 
@@ -146,4 +140,40 @@ p {
     border-radius: 180px;
     width: 100px;
     border: #DDDDDD solid 5px;
+}
+.contact-form{
+    background-color: #b3b3b3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 33%;
+    width: 500px;
+    border-radius: 30px;
+    border: #1a1414 solid 5px;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
+.form-group{
+    margin: 20px;
+}
+.form-button{
+    margin: 20px;
+    padding-top: 12px;
+    padding-left: 25px;
+    background-color: rgb(77, 43, 21);
+    border-radius: 40px;
+    display: flex;
+    margin: 50px;
+    width: 100px;
+    height: 50px;
+    margin-left: 30%;
+    border: #1a1414 solid 5px;
+    color: #DDDDDD;
+   
+}
+.form-button:hover{
+    background-color: rgb(44, 23, 23);
+    color: rgb(124, 106, 106);;
+    transition: 0.2s;
 }
