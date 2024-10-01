@@ -1,21 +1,35 @@
-*{
-    background-color: #DDDDDD;
-    
+* {
+    margin: 0;
+    padding: 0;
 }
-.site-header{
+
+body {
+    background-color: #DDDDDD;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.site-header {
     display: flex;
     background-color: rgb(77, 43, 21);
     align-items: center;
     height: 180px;
 }
-.loguinhotop{
+
+.loguinhotop {
     margin-right: 0px;
     margin-left: 900px;
     border-radius: 180px;
     width: 100px;
     border: #DDDDDD solid 5px;
 }
-.nav-link{
+
+.nav-link {
     color: rgb(211, 199, 186);
     text-decoration: none;
     font-size: 50px;
@@ -23,10 +37,12 @@
     margin: 40px;
 }
 
-.prato{
+.prato {
     background-color: rgb(77, 43, 21);
     border-radius: 40px;
     display: flex;
+    flex-flow: column wrap;
+    align-items: center;
     margin: 50px;
     width: 800px;
     height: 300px;
@@ -34,22 +50,33 @@
     border: #1a1414 solid 5px;
     color: #DDDDDD;
 }
-.foto-prato{
+
+.foto-prato {
     width: 200px;
-    margin: 40px;
+    height: 180px;
+    margin: 30px;
     border-radius: 30px;
-    border: rgb(0, 0, 0) solid 6px; 
+    border: rgb(0, 0, 0) solid 6px;
 }
-.nome-prato, .preco-prato, .descricao-prato{
+
+.nome-prato,
+.preco-prato,
+.descricao-prato {
     background-color: rgb(77, 43, 21);
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 20px;
 }
-.nome-prato{
-    font-size: 50px;
+
+.nome-prato {
+    font-size: 40px;
 }
-.preco-prato{
+
+.preco-prato {
     font-size: 30px;
 }
-.descricao-prato{
+
+.descricao-prato {
     font-size: 20px;
 }
 
@@ -59,15 +86,64 @@
     padding: 0;
 }
 
-.facebook img{
+.facebook img {
     width: 200px;
     height: auto;
     padding: 50px;
 }
 
-.telefone img{
+.telefone img {
     width: 200px;
     height: auto;
     padding: 50px;
 }
 
+.dishes-class {
+    text-align: center;
+    font-size: 40px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(77, 43, 21);
+    color: antiquewhite;
+    margin-left: 5%;
+    width: 90%;
+    height: 190px;
+    align-self: center;
+
+}
+
+.rodape p {
+    font-size: 20px;
+
+    margin-bottom: 0;
+
+}
+
+
+.fachada {
+    display: flex;
+    align-self: center;
+    border: #1a1414 solid 8px;
+    border-radius: 70px;
+    margin-left: 27%;
+    margin-bottom: 50px;
+
+}
+
+.footer-strong {
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.loguinhotop2 {
+    margin-right: 0px;
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 180px;
+    width: 100px;
+    border: #DDDDDD solid 5px;
+}
