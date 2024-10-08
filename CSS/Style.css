@@ -4,29 +4,52 @@
     font-family: sans-serif;
 }
 
+:root {
+    --cinzaclaro-base: #DDDDDD;
+    --marrom-base: rgb(77, 43, 21);
+}
+
+
 body {
-    background-color: #DDDDDD;
+    background-color: var(--cinzaclaro-base);
     overflow: auto;
 }
 
+
 .site-header {
     display: flex;
-    background-color: rgb(77, 43, 21);
+    background-color: var(--marrom-base);
     align-items: center;
     height: 50%;
-    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21), rgb(77, 43, 21), rgb(34, 25, 16));
+    background-image: linear-gradient(to left, rgb(51, 43, 35), var(--marrom-base), var(--marrom-base), rgb(34, 25, 16));
 }
+
+.empty {
+    width: 20%;
+}
+
 
 .loguinhotop {
     width: 15%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
 }
-.logo-header{
+
+.loguinhotop img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.logo-header {
     margin-right: 0px;
-    width: 15%;
     border-radius: 180px;
     width: 100px;
-    border: #DDDDDD solid 5px;
+    border: var(--cinzaclaro-base) solid 5px;
 }
+
 
 .nav-link {
     color: rgb(211, 199, 186);
@@ -34,11 +57,13 @@ body {
     font-size: 50px;
     margin: 40px;
 }
-.nav{
-    align-items: flex-end;
+
+.nav {
+    width: 65%;
 }
+
 .prato {
-    background-color: rgb(77, 43, 21);
+    background-color: var(--marrom-base);
     border-radius: 40px;
     display: flex;
     flex-flow: column wrap;
@@ -46,10 +71,11 @@ body {
     margin: 50px;
     width: 800px;
     height: 300px;
-    margin-left: 30%;
+    margin-left: 20%;
     border: #1a1414 solid 5px;
-    color: #DDDDDD;
+    color: var(--cinzaclaro-base);
 }
+
 
 .foto-prato {
     width: 200px;
@@ -59,26 +85,48 @@ body {
     border: rgb(0, 0, 0) solid 6px;
 }
 
+
+
+
+.home-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+
+.home-h1 {
+    height: 6rem;
+}
+
+
 .nome-prato,
 .preco-prato,
 .descricao-prato {
-    background-color: rgb(77, 43, 21);
+    background-color: var(--marrom-base);
     margin: 0;
     margin-top: 30px;
     margin-right: 20px;
 }
 
+
 .nome-prato {
     font-size: 40px;
 }
+
 
 .preco-prato {
     font-size: 30px;
 }
 
+
 .descricao-prato {
     font-size: 20px;
 }
+
 
 .instagram img {
     width: 300px;
@@ -86,11 +134,13 @@ body {
     padding: 0;
 }
 
+
 .facebook img {
     width: 200px;
     height: auto;
     padding: 50px;
 }
+
 
 .telefone img {
     width: 200px;
@@ -98,25 +148,30 @@ body {
     padding: 50px;
 }
 
+
 .dishes-class {
+
 
     display: flex;
     flex-flow: row wrap;
 }
 
+
 .rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(77, 43, 21);
-    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21), rgb(77, 43, 21), rgb(34, 25, 16));
+    background-color: var(--marrom-base);
+    background-image: linear-gradient(to left, rgb(51, 43, 35), var(--marrom-base), var(--marrom-base), rgb(34, 25, 16));
     color: antiquewhite;
     margin-left: 5%;
     width: 90%;
     height: 190px;
     align-self: center;
 
+
 }
+
 
 .rodape p {
     font-size: 20px;
@@ -125,31 +180,35 @@ body {
 }
 
 
+
+
 .fachada {
-    display: flex;
-    align-self: center;
     border: #1a1414 solid 8px;
     border-radius: 70px;
-    margin-left: 27%;
     margin-bottom: 50px;
 
+
 }
+
 
 .footer-strong {
     font-size: 60px;
     margin-top: 40px;
 }
-.redes{
+
+.redes {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
     height: 60%;
 }
-.rede-logo{
+
+.rede-logo {
     width: 20%;
     height: auto;
 }
+
 
 .loguinhotop2 {
     margin-right: 0px;
@@ -157,10 +216,11 @@ body {
     margin-top: 20px;
     border-radius: 180px;
     width: 100px;
-    border: #DDDDDD solid 5px;
+    border: var(--cinzaclaro-base) solid 5px;
 }
 
-.contatos-main{
+
+.contatos-main {
     width: 100%;
     height: 30rem;
     display: flex;
@@ -169,6 +229,7 @@ body {
     flex-direction: column;
     align-content: space-between;
 }
+
 
 .contact-form {
     background-color: #b3b3b3;
@@ -185,13 +246,15 @@ body {
     height: 20rem;
 }
 
+
 .form-group {
     margin: 20px;
 }
 
+
 .form-button {
-    color: #DDDDDD;
-    background-color: rgb(77, 43, 21);
+    color: var(--cinzaclaro-base);
+    background-color: var(--marrom-base);
     border-radius: 5rem;
     width: 6rem;
     height: 2.7rem;
@@ -201,8 +264,17 @@ body {
     border: #1a1414 solid 5px;
 }
 
+
 .form-button:hover {
     background-color: rgb(44, 23, 23);
     color: rgb(124, 106, 106);
     transition: 0.2s;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-color: #1a1414;
+    }
+
+    ;
 }
