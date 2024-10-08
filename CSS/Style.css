@@ -6,18 +6,23 @@
 
 body {
     background-color: #DDDDDD;
+    overflow: auto;
 }
+
 .site-header {
     display: flex;
     background-color: rgb(77, 43, 21);
     align-items: center;
-    height: 180px;
-    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21),  rgb(77, 43, 21), rgb(34, 25, 16));
+    height: 50%;
+    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21), rgb(77, 43, 21), rgb(34, 25, 16));
 }
 
 .loguinhotop {
+    width: 15%;
+}
+.logo-header{
     margin-right: 0px;
-    margin-left: 900px;
+    width: 15%;
     border-radius: 180px;
     width: 100px;
     border: #DDDDDD solid 5px;
@@ -29,7 +34,9 @@ body {
     font-size: 50px;
     margin: 40px;
 }
-
+.nav{
+    align-items: flex-end;
+}
 .prato {
     background-color: rgb(77, 43, 21);
     border-radius: 40px;
@@ -91,7 +98,7 @@ body {
     padding: 50px;
 }
 
-.dishes-class{
+.dishes-class {
 
     display: flex;
     flex-flow: row wrap;
@@ -102,7 +109,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgb(77, 43, 21);
-    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21),  rgb(77, 43, 21), rgb(34, 25, 16));
+    background-image: linear-gradient(to left, rgb(51, 43, 35), rgb(77, 43, 21), rgb(77, 43, 21), rgb(34, 25, 16));
     color: antiquewhite;
     margin-left: 5%;
     width: 90%;
@@ -132,6 +139,17 @@ body {
     font-size: 60px;
     margin-top: 40px;
 }
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 60%;
+}
+.rede-logo{
+    width: 20%;
+    height: auto;
+}
 
 .loguinhotop2 {
     margin-right: 0px;
@@ -141,39 +159,50 @@ body {
     width: 100px;
     border: #DDDDDD solid 5px;
 }
-.contact-form{
+
+.contatos-main{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.contact-form {
     background-color: #b3b3b3;
     margin: 0;
+    margin-top: 2rem;
     padding: 0;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    margin-left: 33%;
-    width: 500px;
+    width: 550px;
     border-radius: 30px;
     border: #1a1414 solid 5px;
     box-shadow: 0px 0px 30px rgb(0, 0, 0);
+    height: 20rem;
 }
-.form-group{
+
+.form-group {
     margin: 20px;
 }
-.form-button{
-    margin: 20px;
-    padding-top: 12px;
-    padding-left: 25px;
-    background-color: rgb(77, 43, 21);
-    border-radius: 40px;
-    display: flex;
-    margin: 50px;
-    width: 100px;
-    height: 50px;
-    margin-left: 30%;
-    border: #1a1414 solid 5px;
+
+.form-button {
     color: #DDDDDD;
-   
+    background-color: rgb(77, 43, 21);
+    border-radius: 5rem;
+    width: 6rem;
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #1a1414 solid 5px;
 }
-.form-button:hover{
+
+.form-button:hover {
     background-color: rgb(44, 23, 23);
-    color: rgb(124, 106, 106);;
+    color: rgb(124, 106, 106);
     transition: 0.2s;
 }
