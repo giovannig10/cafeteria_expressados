@@ -20,15 +20,9 @@ body {
     display: flex;
     background-color: var(--marrom-base);
     align-items: center;
-    height: 8rem;
+    justify-content: space-between;
     background-image: linear-gradient(to left, rgb(51, 43, 35), var(--marrom-base), var(--marrom-base), rgb(34, 25, 16));
 }
-
-.empty {
-    width: 35%;
-}
-
-
 .loguinhotop {
     width: 15%;
     display: flex;
@@ -55,11 +49,11 @@ body {
     color: rgb(211, 199, 186);
     text-decoration: none;
     font-size: 3.125rem;
-    margin: 2.875rem;
+    margin: 2rem;
 }
 
 .nav {
-    width: 65%;
+    width: 50%;
     display: flex;
     flex-direction: row;
 }
@@ -74,8 +68,8 @@ body {
     flex-flow: column wrap;
     align-items: center;
     margin: 3.125rem;
-    width: 50rem;
-    height: 18.75rem;
+    width: 43rem;
+    height: 21rem;
     border: #1a1414 solid 5px;
     color: var(--cinzaclaro-base);
     flex-wrap: wrap;
@@ -128,25 +122,13 @@ body {
 }
 
 
-.instagram img {
-    width: 12.5rem;
+.instagram img, .facebook img, .telefone img {
+    width: 8rem;
     height: auto;
-    padding: 3.125rem;
+    padding: 4rem;
+    margin: 0%;
 }
 
-
-.facebook img {
-    width: 12.5rem;
-    height: auto;
-    padding: 3.125rem;
-}
-
-
-.telefone img {
-    width: 12.5rem;
-    height: auto;
-    padding: 3.125rem;
-}
 
 
 .dishes-class {
@@ -278,9 +260,18 @@ body {
 }
 
 @media (max-width: 767px) {
-    body {
-
+    .nav-link{
+        font-size: 1.5rem;
+        gap: 0.5rem;
     }
+}
 
-    ;
+@media (min-width: 768px) and  (max-width: 1024px) {
+    .nav-link{
+        font-size: 2rem;
+        gap: 0;
+    }
+    .contact-form{
+        width: 70%;
+    }
 }
